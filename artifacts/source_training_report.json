@@ -1,0 +1,11 @@
+{
+  "validation": {
+    "examples": 360,
+    "intent_accuracy": 1.0,
+    "exact_token_tag_sequence_accuracy": 1.0
+  },
+  "policy_demonstration_fit": 1.0,
+  "policy_examples": 448,
+  "train_examples": 2588,
+  "limitations": "Synthetic development-validation, consulted to expand training paraphrases; not an independent test set. Policy demonstration fit is measured on its training examples."
+}

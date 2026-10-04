@@ -1,0 +1,47 @@
+{
+  "accuracy": 1.0,
+  "classification_report": {
+    "case_details": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 320.0
+    },
+    "letter_generation": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 320.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 640.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 640.0
+    }
+  },
+  "confusion_matrix_labels": [
+    "case_details",
+    "letter_generation"
+  ],
+  "confusion_matrix_rows_actual_columns_predicted": [
+    [
+      320,
+      0
+    ],
+    [
+      0,
+      320
+    ]
+  ],
+  "train_examples": 2560,
+  "validation_examples": 640,
+  "best_epoch": 8
+}

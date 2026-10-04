@@ -1,0 +1,100 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 0.12305449440453285,
+      "validation_exact_json_accuracy": 0.9970014992503748
+    },
+    {
+      "epoch": 2,
+      "loss": 0.001757834150122284,
+      "validation_exact_json_accuracy": 0.9985007496251874
+    },
+    {
+      "epoch": 3,
+      "loss": 0.0007738962526469658,
+      "validation_exact_json_accuracy": 0.9985007496251874
+    },
+    {
+      "epoch": 4,
+      "loss": 0.0004402292940553639,
+      "validation_exact_json_accuracy": 0.9985007496251874
+    },
+    {
+      "epoch": 5,
+      "loss": 0.00026116620683208554,
+      "validation_exact_json_accuracy": 0.9985007496251874
+    },
+    {
+      "epoch": 6,
+      "loss": 0.00018503850767603527,
+      "validation_exact_json_accuracy": 0.9985007496251874
+    },
+    {
+      "epoch": 7,
+      "loss": 0.00015743496634914025,
+      "validation_exact_json_accuracy": 0.9985007496251874
+    },
+    {
+      "epoch": 8,
+      "loss": 0.0001303148371212657,
+      "validation_exact_json_accuracy": 0.9985007496251874
+    },
+    {
+      "epoch": 9,
+      "loss": 0.00011664827496730791,
+      "validation_exact_json_accuracy": 0.9985007496251874
+    },
+    {
+      "epoch": 10,
+      "loss": 0.00010707483241602139,
+      "validation_exact_json_accuracy": 0.9985007496251874
+    },
+    {
+      "epoch": 11,
+      "loss": 9.372132346959291e-05,
+      "validation_exact_json_accuracy": 0.9985007496251874
+    },
+    {
+      "epoch": 12,
+      "loss": 8.28112720295964e-05,
+      "validation_exact_json_accuracy": 0.9985007496251874
+    }
+  ],
+  "selected_threshold": 0.95,
+  "validation": {
+    "examples": 667,
+    "exact_json_accuracy": 1.0,
+    "entity_precision": 1.0,
+    "entity_recall": 1.0,
+    "entity_f1": 1.0,
+    "no_id_examples": 82,
+    "no_id_accuracy": 1.0,
+    "per_field": {
+      "case_id": {
+        "tp": 75,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "employee_id": {
+        "tp": 435,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "sr_no": {
+        "tp": 75,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    }
+  }
+}
